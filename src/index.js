@@ -6,6 +6,9 @@ import './index.scss';
 import history from './utils/history';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { configureFakeBackend } from './utils/fakeBackend';
+
+configureFakeBackend();
 
 ReactDOM.render(
   <Router history={history}>
